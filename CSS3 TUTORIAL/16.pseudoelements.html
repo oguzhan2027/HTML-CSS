@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS - Pseudo Element</title>
+    <style>
+        .para1{
+            font-size: 1.5em;
+            letter-spacing: 2px;
+            line-height: 1.5em;
+        }
+        /* .para1::first-line{
+            color: red;
+        }
+        .para1::first-letter{
+            color: blue;
+            font-size: 50px;
+        } */
+        .para1::after{
+            content: url("images/logo.png");
+        }
+        .para1::before{
+            content: "patragraf öncesi";
+        }
+    </style>
+</head>
+<body>
+    <p class="para1">Lorem ipsum dolor sit amet consectetur adipisicing
+         elit. Nam, nulla? Exercitationem, consequuntur iure nostrum mollitia
+          necessitatibus dolorum explicabo labore odit distinctio. Sequi
+           ducimus explicabo temporibus, delectus voluptatum eaque quaerat 
+           porro earum dolor impedit ut dolorum expedita consequuntur nostrum 
+           cumque, modi aliquam. Porro atque labore voluptate quod ipsa sed 
+           blanditiis. Sapiente odit excepturi assumenda at natus alias temporibus
+           , qui non officiis nam impedit facere iure praesentium itaque sed illo 
+           vitae eum voluptatum? Nulla cupiditate a tempora quasi adipisci perspiciatis
+            natus maiores dicta, ducimus quisquam facere praesentium, quibusdam aperiam 
+            voluptatum ratione tempore nam dolores molestiae! Aliquid, dolorem.
+             Ab exercitationem nihil repellat nesciunt?
+            </p>
+</body>
+</html>
