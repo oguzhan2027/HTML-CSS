@@ -12,3 +12,13 @@
 #training .items .item{
     width: 100%;
 }
+.courses .course{
+    flex-direction: column;
+}
+#contact .contact-form{
+    max-width: 250;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+}
